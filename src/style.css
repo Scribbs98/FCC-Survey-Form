@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.4)), url(https://i.pinimg.com/originals/ce/7f/55/ce7f55d0ce9ec88c238f4f0f5731d809.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', arial;
+}
+#title {
+  text-align: center;
+  font-size: 45px;
+  text-decoration: underline;
+}
+#description {
+  text-align: center;
+  font-size: 18px;
+  padding: 0% 0% 1% 0%;
+}
+#survey-form {
+  background-color: hsl(110, 90%, 17%);
+  border-radius: 20px;
+  color: white;
+  margin: 0% 25% 0% 25%;
+  padding: 2% 2% 2% 2%;
+}
+label, #recommend-label, #improved-label {
+  display: block;
+  font-size: 23px;
+  padding: 0% 0% 2% 0%;
+  margin: 1% 0% 1% 0%;
+}
+#name, #email, #number, #dropdown, #favourite, #comments {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  width: 98%;
+  padding: 1% 0% 1% 0%;
+  margin: 1% 0% 0% 0%;
+}
+input, option, textarea, #definitely-label, #maybe-label, #probably-not-label, #front-end-label, #back-end-label, #data-visualisation-label, #challenges-label, #open-source-label, #help-rooms-label, #videos-label, #city-meetups-label, #wiki-label, #forum-label, #additional-courses-label{
+  font-family: inherit;
+  font-size: 18px;
+}
+#definitely-label, #maybe-label, #front-end-label, #back-end-label, #data-visualisation-label, #challenges-label, #open-source-label, #help-rooms-label, #videos-label, #city-meetups-label, #wiki-label, #forum-label {
+  padding: 0% 0% 1% 0%;
+}
+#dropdown, #favourite {
+  font-family: inherit;
+  font-size: 18px;
+  margin: 1% 0% 2% 0%;
+}
+#probably-not-label, #additional-courses-label {
+  margin: 0% 0% 2% 0%;
+}
+#comments {
+  padding: 1% 0% 10% 0%;
+  margin: 1% 0% 2% 0%;
+}
+button {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  width: 99%;
+  padding: 1.5% 0% 1.5% 0%;
+  font-family: 'Work Sans', arial;
+  font-size: 23px;
+  color: black;
+  background-color: hsl(110, 90%, 75%);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: ease-out 1s;
+}
+button:hover {
+  background-color: hsl(175, 100%, 50%);
+  transition: ease-out 1s;
+}
+@media (max-width: 800px) {
+  #survey-form {
+    margin: 0% 5% 0% 5%;
+  }
+}
